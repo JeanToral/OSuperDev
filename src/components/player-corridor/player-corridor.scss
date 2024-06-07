@@ -1,0 +1,29 @@
+.playersContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+
+    p {
+        color: white;
+    }
+}
+
+.playersCorridor{
+    border: 1px #435971 solid;
+    border-radius: 5px;
+    background-color: #282F38;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.playersList{
+    img {
+        width: calc(50vw - 30px);
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}

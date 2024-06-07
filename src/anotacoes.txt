@@ -1,0 +1,6 @@
+- classes de css sempre separadas por hifen
+- componentes de react sempre começam por maiusculas
+- variaveis em camel case 
+- imagens precisam estar na pasta public
+- classname para estilização e id para componentes
+- 
