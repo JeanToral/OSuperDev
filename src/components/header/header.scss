@@ -1,12 +1,13 @@
 .Header{
     background-color: #2D3844;
     height: 50px;
-    width: calc(100vw - 24px);
+    width: calc(100vw - 22px);
     padding: 0 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 2;
+    position: fixed;
 
     .headerCategories{
         display: none;
@@ -24,7 +25,7 @@
 
 @media(min-width: 1024px){
     .Header{
-        width: calc(100vw - 50px);
+        width: calc(100vw - 49px);
         padding: 0 24px 0 12px;
 
         .menuIcon{

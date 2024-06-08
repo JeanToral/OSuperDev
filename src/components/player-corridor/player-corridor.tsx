@@ -19,6 +19,11 @@ function PlayerCorridor(props: PlayerCorridorProps) {
                     <img src={ players.image } alt={ players.name } />
                 </div>)}
             </div>
+            <div className={ 'playersCorridor' }>
+                { players.slice(0, 5).map((players, index) => <div key={ index } className={ 'playersList'   }>
+                    <img src={ players.image } alt={ players.name } />
+                </div>)}
+            </div>
         </div>
     )
     

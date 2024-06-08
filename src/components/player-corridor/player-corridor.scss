@@ -11,9 +11,6 @@
 }
 
 .playersCorridor{
-    border: 1px #435971 solid;
-    border-radius: 5px;
-    background-color: #282F38;
     width: 100%;
     display: grid;
     gap: 20px;
@@ -25,5 +22,21 @@
         width: calc(50vw - 30px);
         object-fit: cover;
         border-radius: 5px;
+    }
+}
+
+@media(min-width: 1024px){
+    .playersContainer{
+        margin-top: 100px;
+    }
+
+    .playersCorridor{
+        border: none;
+        column-gap: 10px;
+        background-color: #1B1F23;
+        grid-template-columns:center;
+        img{
+            width: calc(20vw - 60px);
+        }
     }
 }

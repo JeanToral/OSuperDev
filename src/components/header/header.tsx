@@ -6,7 +6,7 @@ import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 
 function Header(){
     return <div className='Header'>
-        <MenuRoundedIcon className={ 'menuIcon desktop-hidden' }/>
+        <MenuRoundedIcon className={ 'menuIcon' }/>
         <img src='/images/logo.png' alt='Logo' className={ 'Logo' }/>
         <div className={ 'headerCategories' }>
             <p>Players</p>
