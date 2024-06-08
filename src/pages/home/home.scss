@@ -9,70 +9,8 @@
 
     .Divider{
         background-color: #606060;
-        width: 100vw;
+        width: calc(100vw - 14px);
         height: 1px;
         margin-left: -20px;
-    }
-}
-
-.Main_Player{
-
-    img{
-        width: 150px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-    }
-
-    p{
-        text-align: center;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .Main_Name{
-        font-size: 24px;
-        color: whitesmoke;
-    }
-
-    .Main_Team{
-        font-size: 16px;
-        color: #929A9E;
-    }
-
-    .Icons{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-
-        .Rate{
-            color: #FFE600;
-            padding: 0px 10px;
-        }
-        .Favorite{
-            color: #C1392B;
-            padding: 0px 10px;
-        }
-    
-        .Share{
-            color: #5D9F45;
-            padding: 0px 10px;
-        }
-    }
-
-    .CompleteStats{
-        background-color: #435971;
-        border-radius: 5px;
-        width: 300px;
-        height: 30px;
-        margin: 0px auto;
-        
-        .FullStats{
-            font-size: 16px;
-            color: white;
-            padding: 5px;
-        }
     }
 }

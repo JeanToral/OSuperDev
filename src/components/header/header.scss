@@ -1,12 +1,16 @@
 .Header{
     background-color: #2D3844;
     height: 50px;
-    width: calc(100vw - 40px);
+    width: calc(100vw - 24px);
     padding: 0 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 2;
+
+    .headerCategories{
+        display: none;
+    }
 
     svg{
         font-size: 50px;
@@ -20,8 +24,13 @@
 
 @media(min-width: 1024px){
     .Header{
-        width: calc(100vw - 40px);
+        width: calc(100vw - 50px);
         padding: 0 24px 0 12px;
+
+        .menuIcon{
+            display: none;
+        }
+
         .headerCategories{
             display: flex;
             align-items: center;
