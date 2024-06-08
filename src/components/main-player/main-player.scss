@@ -75,3 +75,9 @@
         color: white;
     }   
 }
+
+@media(min-width: 1014px){
+    .mainPlayer{
+        flex-direction: row;
+    }
+}

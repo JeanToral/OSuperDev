@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 10px;
 
     p {
         color: white;
@@ -13,10 +12,9 @@
 .playersCorridor{
     width: 100%;
     display: grid;
-    gap: 20px;
     grid-template-columns: auto auto;
 
-    &.desktop-hidden {
+    &.mobile-hidden{
         display: none;
     }
 }
@@ -31,19 +29,22 @@
 
 @media(min-width: 1024px){
     .playersContainer{
-        margin-top: 100px;
+        margin-top: 25px;
     }
 
     .playersCorridor{
-        border: none;
-        column-gap: 10px;
-        background-color: #1B1F23;
+        background-color: red;
+        justify-content: space-between;
         grid-template-columns: repeat(5, auto);
 
-        &.mobile-hidden{
+        &.desktop-hidden {
             display: none;
         }
 
+        &.mobile-hidden{
+            display: grid;
+        }
+        
         img{
             width: calc(20vw - 60px);
         }
