@@ -15,6 +15,10 @@
     display: grid;
     gap: 20px;
     grid-template-columns: auto auto;
+
+    &.desktop-hidden {
+        display: none;
+    }
 }
 
 .playersList{
@@ -34,7 +38,12 @@
         border: none;
         column-gap: 10px;
         background-color: #1B1F23;
-        grid-template-columns:center;
+        grid-template-columns: repeat(5, auto);
+
+        &.mobile-hidden{
+            display: none;
+        }
+
         img{
             width: calc(20vw - 60px);
         }

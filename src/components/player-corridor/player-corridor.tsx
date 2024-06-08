@@ -14,12 +14,12 @@ function PlayerCorridor(props: PlayerCorridorProps) {
     return (
         <div className={ 'playersContainer'}>
             <p> { name } </p>
-            <div className={ 'playersCorridor' }>
+            <div className={ 'playersCorridor desktop-hidden' }>
                 { players.slice(0, 2).map((players, index) => <div key={ index } className={ 'playersList'   }>
                     <img src={ players.image } alt={ players.name } />
                 </div>)}
             </div>
-            <div className={ 'playersCorridor' }>
+            <div className={ 'playersCorridor mobile-hidden' }>
                 { players.slice(0, 5).map((players, index) => <div key={ index } className={ 'playersList'   }>
                     <img src={ players.image } alt={ players.name } />
                 </div>)}
