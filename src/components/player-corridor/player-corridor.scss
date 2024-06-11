@@ -13,10 +13,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: auto auto;
-
-    &.mobile-hidden{
-        display: none;
-    }
+    gap: 20px;
 }
 
 .playersList{
@@ -33,17 +30,8 @@
     }
 
     .playersCorridor{
-        background-color: red;
         justify-content: space-between;
         grid-template-columns: repeat(5, auto);
-
-        &.desktop-hidden {
-            display: none;
-        }
-
-        &.mobile-hidden{
-            display: grid;
-        }
         
         img{
             width: calc(20vw - 60px);

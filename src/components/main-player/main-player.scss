@@ -79,5 +79,52 @@
 @media(min-width: 1014px){
     .mainPlayer{
         flex-direction: row;
+        align-items: flex-start;
+        gap: 50px;
+
+        img{
+            width: unset;
+            height: 400px;
+        }
+    }
+
+    .mainPlayerActions{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .mainPlayerDetails{
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        min-height: 400px;
+
+        h2{
+            text-align: left;
+            font-size: 64px;
+            margin-top: 0;
+            overflow: hidden;
+        }
+
+        p{
+            text-align: left;
+            font-size: 28px;
+        }
+
+        .playerTeam{
+            margin-top: -20px;
+        }
+
+        .completeStats{
+            display: flex;
+            margin-top: auto;
+            width: 200px;
+            gap: 0;
+
+            p{
+                font-size: 16px;
+            }
+        }
     }
 }
